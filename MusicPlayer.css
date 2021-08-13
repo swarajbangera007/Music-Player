@@ -1,0 +1,550 @@
+body{
+    background-color: #081c40;  
+}
+
+/*Navigation Bar Section*/
+
+  #logo{
+    display: flex;
+    align-items: baseline;                      
+    margin-left: 2%;
+    color: #FFFFFF;
+  }
+
+  #logo i{
+      font-size: 40px;                      /*spotify logo*/
+      color: chartreuse;
+  }
+  
+  #logo h5{
+    margin-left: 65%;
+    font-family: 'Segoe UI';
+    font-weight: lighter;
+  }
+  
+  #search img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;                      /*Profile Picture*/
+    margin-top: -14%;
+    margin-right: 32px;
+  }
+  
+  #search input{
+    height: 35px;
+    width: 310px;
+    margin-top: -40px;
+    border-radius: 10px;               /*Search Box*/
+    margin-left: -10%;
+    color: #FFFFFF;
+    border: none;
+    background-color: #3c5b82;
+  }
+
+  #search input:focus{
+      outline: none;
+  }
+
+::placeholder{
+      color: #a6a6a6;
+      font-size: 15px;           /*Search Box Placeholder*/
+      margin-top: 10px;
+  }
+  
+  #search{
+    display: flex;
+  }
+  
+  .navbar{
+    display: flex;
+    height: auto;
+    width: 100%;
+    background-color: #081c40;
+    justify-content: space-between;
+    align-items: baseline;
+    top: 0;
+    position:fixed;
+    z-index: 3;
+  }
+
+
+  #search div i{
+    color: #FFFFFF;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-right: 25px;
+  }
+
+  
+  .img{
+      height: 100px;
+      width: 100px;
+  }
+
+  #content{                         /*Content Section : It contains main, aside and footer section.*/
+      margin-top: 45px;
+      margin-left: 10px;
+  }
+
+  main {                         /*Main Section*/
+    width: 70%;
+    display: inline-block;
+    background-color: #081c40;
+  }
+
+/*Banner section containing 3 song images*/
+
+  #banner{
+      display: flex;
+      margin-top: 90px;
+      margin-left: 80px;
+  }
+
+  #banner img{
+      border-radius: 20px;
+      margin:5px;
+  }
+
+  #banner img:nth-child(2n+1){
+      height: 210px;
+      width: 300px;
+  }
+
+  #banner img:nth-child(2n){
+    height: 210px;
+    width:300px;
+    margin-left:14px;
+    margin-right:14px;
+}
+
+#banner img:hover{
+    transition: 0.1s ease-in-out;
+    transform: scale(1.1);
+}
+
+.heading{          /*Heading*/
+    color:white;
+}
+
+/*Latest Release Section*/
+
+#latest-release{
+    margin-left: 80px;
+}
+
+.icon{
+    display: flex;
+}
+
+#icon2{
+    margin-top: 40px;
+}
+
+.block{
+    display: flex;
+    margin-left: 10px;
+}
+
+#block2{
+    margin-left: 100px;
+}
+.music-img{
+    height: 90px;
+    width:90px;
+}
+
+#lm-img{
+    margin-left: -10px;
+}
+
+.song-name{
+    color: white;
+    margin-left: 10px;
+}
+
+.option{
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.duration{
+    color: white;
+    margin-left: -20px;
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+/*Popular Artist Section*/
+
+#artists{
+    margin-left: 80px;
+}
+
+.artist-img{
+    display: flex;
+    margin-left: -25px;
+}
+
+.artist-img div:hover{
+    transition: 0.1s ease-in-out;
+    transform: scale(1.1);
+}
+
+.artist{
+    height: 140px;
+    width:140px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+.artist-name{
+    color: white;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+/*Station Section*/
+
+.station-box{
+    height:auto;
+    width: 85%;
+    margin-left: 70px;
+    display: flex;
+    background-color:#0c315f;
+    padding: 14px;
+}
+
+.station-box a img:hover{
+    transition: 0.1s ease-in-out;
+    transform: scale(1.1);
+}
+
+#station-logo{
+    height: 140px;
+    width: 140px;
+}
+
+#genere-img{
+    height: 100px;
+    width: 100px;
+    margin-left:25px;
+    margin-top: 22px;
+}
+
+/*Category Section*/
+
+.category{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.cat{
+    height: 160px;
+    width: 292px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+#cat1{
+    background-image: url('Images/Music/Genres/party.jpg');
+    background-size: contain;
+}
+
+#cat2{
+    background-image: url('Images/Music/Genres/edm.jpg');
+    background-size: contain;
+}
+
+#cat3{
+    background-image: url('Images/Music/Genres/trip.jpg');
+    background-size: contain;
+}
+
+.cat h3{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.category div:hover{
+    transition: 0.1s ease-in-out;
+    transform: scale(1.1);
+}
+
+/*Latest English, Hindi, Kannada and Malayalam song list section*/
+
+.song-img{
+    height:auto;
+    width: 85%;
+    margin-left: -34px;
+    display: flex;
+    padding: 14px;
+}
+
+#eng{
+    height: 140px;
+    width:140px;
+    margin-left: 14px;
+}
+
+#latest-english{
+    margin-left: 80px;
+}
+
+#name{
+    margin-left: 16px;
+}
+
+.song-img h6{
+    color: lightgray;
+    margin-top:-15px;
+    margin-left: 15px;
+    font-weight: lighter;
+}
+
+.song-img img{
+    border-radius: 10px;
+}
+
+.song-img div:hover{
+    transition: 0.1s ease-in-out;
+    transform: scale(1.1);
+}
+
+      /*aside section*/
+
+aside {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 80px;
+    margin-left: 4px;
+    width: 26%;
+    background-color: #081c40;
+  }
+
+  #header h2{
+      color: white;
+      display: inline-block;
+  }
+
+  #queue{
+      background: none;
+      border: none;
+      color: green;
+      font-weight: bold;
+      margin-left: 130px;
+  }
+
+  #queue:focus{
+      outline: none;
+  }
+
+  #ordered-list li{
+      color: lightgray;
+      margin-top: 10px;
+  }
+
+  #song{
+      display: inline-block;
+      margin-left: 5px;
+  }
+
+  #song img{
+      height: 40px;
+      width: 40px;
+  }
+  #song div{
+      display: flex;
+  }
+
+  #song a{
+    color:white;
+    text-decoration: none;
+  }
+
+  #song h5{
+      color: lightgray;
+      font-weight: lighter;
+      font-size: 10px;
+      margin-top: -18px;
+      margin-left: 10px;
+  }
+
+  #song h4{
+      font-size: 13px;
+      margin-top: -2px;
+      margin-left: 10px;
+  }
+
+  #song{
+      display: flex;
+  }
+
+  .heart{
+      margin-left: 130px;
+  }
+
+  .heart i{
+      color:grey;
+  }
+
+  .heart i:hover{
+      color: lime;
+  }
+
+  /*Music Control Bar*/
+
+  .music-control{
+    width: 100%;
+    height: auto;
+    background-color: #404040;        /*music control bar*/
+    display: flex;
+    bottom: 0;
+    position: fixed;
+}
+
+.s-img img{
+    height: 40px;               /*Now Playing song image*/
+    width: 40px;
+    margin: 13px;
+}
+
+.s-img{
+    display: flex;
+}
+
+.s-img a{
+    color: white;
+    text-decoration: none;
+}
+
+.s-img h5{
+    color: lightgrey;
+    font-weight: lighter;      /*Now playing song name*/
+    font-size: 11px;
+    margin-top: -18px;
+}
+
+.s-img h4{
+    font-size: 14px;          /*Now Playing song album name*/
+}
+
+#song-info{
+    display: flex;
+    margin-left: 87px;
+}
+
+#like-and-ban i{
+    color: gray;
+    margin: 5px;         /*Like and ban section*/
+    margin-top: 19px;
+    margin-left: 10px;
+}
+
+#like-and-ban i:hover{
+    color: limegreen;
+}
+
+#middle-bar{
+    display: block;
+}
+
+.controls{                    /*Controls containing pause, backward, forward, loop and repeat icons*/
+    display: flex;
+    margin-left: 19%;
+}
+
+.controls a{
+    color: grey;
+    font-weight: lighter;
+}
+
+.controls i{
+    margin: 10px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.controls i:hover{
+    color: limegreen;
+}
+
+.progress{                     /*Now playing song progress bar*/
+    display: flex;
+    margin-left: 70px;
+    margin-top: 18px;
+}
+
+.progress h6{
+    color:lightgray;
+    font-weight: lighter;
+    margin-top: 5px;
+}
+
+#progress-outline{
+    width: 550px;
+    height: 2px;
+    background-color:gray;         /*Now playing song progress outline*/
+    border-radius: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+
+#progress-bar{
+    width: 30%;
+    height: 2px;                         /*Now playing song completed part colored green*/
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-color: limegreen;
+}
+
+#circle{
+    height: 10px;
+    width: 10px;
+    position: absolute;                     /*progress bar slider cirlce*/
+    margin-top: -4px;
+    margin-left: 160px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.volume-bar{
+    display: flex;                 /*volume bar*/
+    margin: 20px;
+}
+
+.volume-bar i{
+    color: grey;
+}
+
+#vol-outline{
+  width: 130px;
+  margin: 5px;
+  margin-left: 10px;
+  height: 4px;
+  background-color:gray;
+  border-radius: 50px;
+}
+
+#vol-bar{
+    background-color: limegreen;
+    height: 4px;
+    width: 35%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+#vol-circle{
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  margin-top: -3px;
+  margin-left: 40px;
+  background-color: white;
+  border-radius: 50px;
+}

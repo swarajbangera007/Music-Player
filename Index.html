@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML, CSS and JavaScript demo</title>
+<link rel="stylesheet" type="text/css" href="MusicPlayer.css"/>                                  
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"                     
+integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+  <body>
+    <div class = "navbar">
+     <div id = "logo"><h1><i class="fab fa-spotify"></i></h1>
+     <h5> Favourites</h5>
+      </div>
+      <div id = "search">
+<span><input type = "text" placeholder = "Search"></span>
+<div><i class="fas fa-bell"></i></div>
+        <div><img src="Images\Swaraj.jpg"></div>
+      </div>
+    </div>
+    <div id = "content">
+        <main>
+            <div id = "banner">
+                <a href="#"><img src="Images\Music\lm.jpg"></a>
+                <a href = "#"><img src="Images\Music\Paani.jpg"></a>
+                <a href = "#"><img src="Images\Music\jeevana.jpg"></a>
+            </div>
+            <section id = "latest-release">
+                <h4 class = "heading">Latest Release</h4>
+                <div class = "icon">
+                    <div class = "block">
+                        <a href="#"><img src = "Images\Music\Latest Release\Yuvaratna.jpg" class = "music-img"></a>
+                        <h5 class = "song-name">Neenaade Na</h5>
+                        <div class = "option">...</div>
+                        <br><p class = "duration">4:13</p>
+                    </div>
+                    <div class = "block" id="block2">
+                        <a href="#"><img src = "Images\Music\Latest Release\Paani.jpg" class = "music-img" id = "music-img2"></a>
+                        <h5 class = "song-name">Paani Paani</h5>
+                        <div class = "option">...</div>
+                        <br><p class = "duration">4:38</p>
+                    </div>
+                </div>
+                <div class = "icon" id = "icon2">
+                    <div class = "block">
+                        <a href="#"><img src = "Images\Music\Latest Release\Dynamite.jpg" class = "music-img"></a>
+                        <h5 class = "song-name">BTS Dynamite</h5>
+                        <div class = "option">...</div>
+                        <br><p class = "duration">3:33</p>
+                    </div>
+                    <div class = "block" id="block2">
+                        <a href="#"><img src = "Images\Music\Latest Release\LM.jpg" class = "music-img" id = "lm-img"></a>
+                        <h5 class = "song-name">Ninnindale</h5>
+                        <div class = "option">...</div>
+                        <br><p class = "duration">4:42</p>
+                    </div>
+                </div>
+            </section>
+            <section id = "artists">
+                <h4 class = "heading">Popular Artists</h4>
+                <div class = "artist-img">
+                    <div><a href = "#"><img src = "Images\Music\Artist\Sanjith.jpg" class = "artist"></a>
+                        <h5 class = "artist-name">Sanjith Hegde</h5>
+                    </div>
+                    <div><a href = "#"><img src = "Images\Music\Artist\Harishankar.jpg" class = "artist"></a>
+                        <h5 class = "artist-name">KS Harishankar</h5>
+                    </div>
+                    <div><a href = "#"><img src = "Images\Music\Artist\Amit.jpg" class = "artist"></a>
+                        <h5 class = "artist-name">Amit Trivedi</h5>
+                    </div>
+                    <div><a href = "#"><img src = "Images\Music\Artist\Mahesh.jpg" class = "artist"></a>
+                        <h5 class = "artist-name">Mahesh Raghvan</h5>
+                    </div>
+                    <div><a href = "#"><img src = "Images\Music\Artist\Ariana.jpg" class = "artist"></a>
+                        <h5 class = "artist-name">Ariana Grande</h5>
+                    </div>
+                    <div><a href = "#"><img src = "Images\Music\Artist\Tamizha.jpg" class = "artist"></a>
+                        <h5 class = "artist-name">Hip Hop Tamizha</h5>
+                    </div>
+                </div>
+            </section>
+            <section id = "stations">
+                <div class = "station-box">
+                        <div><img src="Images\music-ico.jpg" id = "station-logo"></div>
+                        <div><a href = "#"><img src = "Images\Music\Genres\love.jpg" class = "artist" id = "genere-img"></a></div>
+                        <div><a href = "#"><img src = "Images\Music\Genres\Retro.jpg" class = "artist" id = "genere-img"></a></div>
+                        <div><a href = "#"><img src = "Images\Music\Genres\Chill.jpg" class = "artist" id = "genere-img"></a></div>
+                        <div><a href = "#"><img src = "Images\Music\Genres\Workout.jpg" class = "artist" id = "genere-img"></a></div>
+                        <div><a href = "#"><img src = "Images\Music\Genres\rock.jpg" class = "artist" id = "genere-img"></a></div>
+                        <div><a href = "#"><img src = "Images\Music\Genres\pop.jpg" class = "artist" id = "genere-img"></a></div>
+                </div>
+                <div class = "category">
+                    <div class = "cat" id = "cat1"><a href = "#"><h3>Party</h3></a></div>
+                    <div class = "cat" id = "cat2"><a href = "#"><h3>Electronic</h3></a></div>
+                    <div class = "cat" id = "cat3"><a href = "#"><h3>Roadtrip</h3></a>></div>
+                </div>
+            </section>
+            <section id = "latest-english">
+                <h4 class = "heading">Latest English</h4>
+                <div class = "song-img">
+                <div>
+                    <a href="#"><img src = "Images\Music\Latest Release\English\idc.jpg" id = "eng"></a>
+                    <h5 class = "artist-name" id = "name">I Don't Care</h5>
+                    <h6>2021</h6>
+                </div>
+                <div>
+                    <a href="#"><img src = "Images\Music\Latest Release\English\halsey.jpg" id = "eng"></a>
+                    <h5 class = "artist-name" id = "name">Without me</h5>
+                    <h6>2021</h6>
+                </div>
+                <div>
+                    <a href="#"><img src = "Images\Music\Latest Release\English\memories.png" id = "eng"></a>
+                    <h5 class = "artist-name" id = "name">Memories</h5>
+                    <h6>2021</h6>
+                </div>
+                <div>
+                    <a href="#"><img src = "Images\Music\Latest Release\English\believer.jpg" id = "eng"></a>
+                    <h5 class = "artist-name" id = "name">Believer</h5>
+                    <h6>2021</h6>
+                </div>
+                <div>
+                    <a href="#"><img src = "Images\Music\Latest Release\English\senorita.jpg" id = "eng"></a>
+                    <h5 class = "artist-name" id = "name">Senorita</h5>
+                    <h6>2021</h6>
+                </div>
+                <div>
+                    <a href="#"><img src = "Images\Music\Latest Release\English\hope.jpg" id = "eng"></a>
+                    <h5 class = "artist-name" id = "name">Hope</h5>
+                    <h6>2021</h6>
+                </div>
+                </div>
+            </section>
+            <section id = "latest-english">
+                <h4 class = "heading">Latest Hindi</h4>
+                <div class = "song-img">
+                <div>
+                    <a href="#"><img src = "Images\Music\Latest Release\Hindi\Paani.jpg" id = "eng"></a>
+                    <h5 class = "artist-name" id = "name">I Don't Care</h5>
+                    <h6>2021</h6>
+                </div>
+                <div>
+                    <a href="#"><img src = "Images\Music\Latest Release\Hindi\pfa.jpg" id = "eng"></a>
+                    <h5 class = "artist-name" id = "name">Dil Se Dastak</h5>
+                    <h6>2021</h6>
+                </div>
+                <div>
+                    <a href="#"><img src = "Images\Music\Latest Release\Hindi\pfa.jpg" id = "eng"></a>
+                    <h5 class = "artist-name" id = "name">Kacche Daage</h5>
+                    <h6>2021</h6>
+                </div>
+                <div>
+                    <a href="#"><img src = "Images\Music\Latest Release\Hindi\opmbbs.jpg" id = "eng"></a>
+                    <h5 class = "artist-name" id = "name">Nazaare Ho</h5>
+                    <h6>2021</h6>
+                </div>
+                <div>
+                    <a href="#"><img src = "Images\Music\Latest Release\Hindi\opmbbs.jpg" id = "eng"></a>
+                    <h5 class = "artist-name" id = "name">Jee Ke Dekhenge</h5>
+                    <h6>2021</h6>
+                </div>
+                <div>
+                    <a href="#"><img src = "Images\Music\Latest Release\Hindi\bb.jpg" id = "eng"></a>
+                    <h5 class = "artist-name" id = "name">Sajan Bin</h5>
+                    <h6>2021</h6>
+                </div>
+                </div>
+            </section>
+            <section id = "latest-english">
+                <h4 class = "heading">Latest Kannada</h4>
+                <div class = "song-img">
+                <div>
+                    <a href="#"><img src = "Images\Music\Latest Release\Kannada\Yuvaratna.jpg" id = "eng"></a>
+                    <h5 class = "artist-name" id = "name">Neenade Naa</h5>
+                    <h6>2021</h6>
+                </div>
+                <div>
+                    <a href="#"><img src = "Images\Music\Latest Release\Kannada\lm.jpg" id = "eng"></a>
+                    <h5 class = "artist-name" id = "name">Ninadene</h5>
+                    <h6>2021</h6>
+                </div>
+                <div>
+                    <a href="#"><img src = "Images\Music\Latest Release\Kannada\allok.jpg" id = "eng"></a>
+                    <h5 class = "artist-name" id = "name">Happy</h5>
+                    <h6>2021</h6>
+                </div>
+                <div>
+                    <a href="#"><img src = "Images\Music\Latest Release\Kannada\asn.jpg" id = "eng"></a>
+                    <h5 class = "artist-name" id = "name">Hands Up</h5>
+                    <h6>2021</h6>
+                </div>
+                <div>
+                    <a href="#"><img src = "Images\Music\Latest Release\Kannada\Pogaru.jpg" id = "eng"></a>
+                    <h5 class = "artist-name" id = "name">Karaabu</h5>
+                    <h6>2021</h6>
+                </div>
+                <div>
+                    <a href="#"><img src = "Images\Music\Latest Release\Kannada\fb.jpg" id = "eng"></a>
+                    <h5 class = "artist-name" id = "name">The Bengaluru Song</h5>
+                    <h6>2021</h6>
+                </div>
+                </div>
+            </section>
+            <section id = "latest-english">
+                <h4 class = "heading">Latest Malayalam</h4>
+                <div class = "song-img">
+                <div>
+                    <a href="#"><img src = "Images\Music\Latest Release\Malayalam\jeevana.jpg" id = "eng"></a>
+                    <h5 class = "artist-name" id = "name">Jeevana</h5>
+                    <h6>2021</h6>
+                </div>
+                <div>
+                    <a href="#"><img src = "Images\Music\Latest Release\Malayalam\godha.jpg" id = "eng"></a>
+                    <h5 class = "artist-name" id = "name">Aaro Nenjil</h5>
+                    <h6>2021</h6>
+                </div>
+                <div>
+                    <a href="#"><img src = "Images\Music\Latest Release\Malayalam\aa.jpg" id = "eng"></a>
+                    <h5 class = "artist-name" id = "name">Kripakari</h5>
+                    <h6>2021</h6>
+                </div>
+                <div>
+                    <a href="#"><img src = "Images\Music\Latest Release\Malayalam\aa.jpg" id = "eng"></a>
+                    <h5 class = "artist-name" id = "name">Kanne Thaai Malare</h5>
+                    <h6>2021</h6>
+                </div>
+                <div>
+                    <a href="#"><img src = "Images\Music\Latest Release\Malayalam\aa.jpg" id = "eng"></a>
+                    <h5 class = "artist-name" id = "name">Rasathi</h5>
+                    <h6>2021</h6>
+                </div>
+                <div>
+                    <a href="#"><img src = "Images\Music\Latest Release\Malayalam\kalame.jpg" id = "eng"></a>
+                    <h5 class = "artist-name" id = "name">Kaalame</h5>
+                    <h6>2021</h6>
+                </div>
+                </div>
+            </section>
+        </main>
+        <aside>
+            <div id = "header"><h2>My Playlist</h2>
+                <select id="queue">
+                    <option value="playlist">Playlist</option>
+                    <option value="fav-song">Favourite Songs</option>
+                  </select>
+            </div>
+            <div id = "song-list">
+                <ol id = "ordered-list">
+                    <li><div id = "song"><div><a href = "#"><img src = "Images\Music\Latest Release\Kannada\Yuvaratna.jpg"></a>
+                    <a href = "#"><h4>Neenaade Na</h4><h5>Yuvaratna</h5></a>
+                    </div>
+                <div class = "heart"><a href = "#"><i class="far fa-heart"></i></a></div>
+                </div></li>
+                <li><div id = "song"><div><a href = "#"><img src = "Images\Music\Latest Release\Kannada\Yuvaratna.jpg"></a>
+                    <a href = "#"><h4>Neenaade Na</h4><h5>Yuvaratna</h5></a>
+                    </div>
+                <div class = "heart"><a href = "#"><i class="far fa-heart"></i></a></div>
+                </div></li>
+                <li><div id = "song"><div><a href = "#"><img src = "Images\Music\Latest Release\Kannada\Yuvaratna.jpg"></a>
+                    <a href = "#"><h4>Neenaade Na</h4><h5>Yuvaratna</h5></a>
+                    </div>
+                <div class = "heart"><a href = "#"><i class="far fa-heart"></i></a></div>
+                </div></li>
+                <li><div id = "song"><div><a href = "#"><img src = "Images\Music\Latest Release\Kannada\Yuvaratna.jpg"></a>
+                    <a href = "#"><h4>Neenaade Na</h4><h5>Yuvaratna</h5></a>
+                    </div>
+                <div class = "heart"><a href = "#"><i class="far fa-heart"></i></a></div>
+                </div></li>
+                <li><div id = "song"><div><a href = "#"><img src = "Images\Music\Latest Release\Kannada\Yuvaratna.jpg"></a>
+                    <a href = "#"><h4>Neenaade Na</h4><h5>Yuvaratna</h5></a>
+                    </div>
+                <div class = "heart"><a href = "#"><i class="far fa-heart"></i></a></div>
+                </div></li>
+                <li><div id = "song"><div><a href = "#"><img src = "Images\Music\Latest Release\Kannada\Yuvaratna.jpg"></a>
+                    <a href = "#"><h4>Neenaade Na</h4><h5>Yuvaratna</h5></a>
+                    </div>
+                <div class = "heart"><a href = "#"><i class="far fa-heart"></i></a></div>
+                </div></li>
+                <li><div id = "song"><div><a href = "#"><img src = "Images\Music\Latest Release\Kannada\Yuvaratna.jpg"></a>
+                    <a href = "#"><h4>Neenaade Na</h4><h5>Yuvaratna</h5></a>
+                    </div>
+                <div class = "heart"><a href = "#"><i class="far fa-heart"></i></a></div>
+                </div></li>
+                <li><div id = "song"><div><a href = "#"><img src = "Images\Music\Latest Release\Kannada\Yuvaratna.jpg"></a>
+                    <a href = "#"><h4>Neenaade Na</h4><h5>Yuvaratna</h5></a>
+                    </div>
+                <div class = "heart"><a href = "#"><i class="far fa-heart"></i></a></div>
+                </div></li>
+                <li><div id = "song"><div><a href = "#"><img src = "Images\Music\Latest Release\Kannada\Yuvaratna.jpg"></a>
+                    <a href = "#"><h4>Neenaade Na</h4><h5>Yuvaratna</h5></a>
+                    </div>
+                <div class = "heart"><a href = "#"><i class="far fa-heart"></i></a></div>
+                </div></li>
+                <li><div id = "song"><div><a href = "#"><img src = "Images\Music\Latest Release\Kannada\Yuvaratna.jpg"></a>
+                    <a href = "#"><h4>Neenaade Na</h4><h5>Yuvaratna</h5></a>
+                    </div>
+                <div class = "heart"><a href = "#"><i class="far fa-heart"></i></a></div>
+                </div></li>
+                </ol>
+            </div>
+        </aside>
+    </div>
+    <footer class = "music-control">
+        <div id = "song-info"><div class = "s-img"><a href = "#"><img src = "Images\Music\Latest Release\Kannada\Yuvaratna.jpg"></a>
+            <a href = "#"><h4>Neenaade Na</h4><h5>Yuvaratna</h5></a>
+            </div>
+        <div id = "like-and-ban"><a href = "#"><i class="far fa-heart"></i></a>
+        <a href = "#"><i class="fas fa-ban"></i></a></div>
+        </div>
+        <div id = "middle-bar">
+            <div class = "controls">
+                <div id = "random"><a href = "#controls"><i class="fas fa-random"></i></a></div>
+                <div id = "back"><a href = "#controls"><i class="fas fa-step-backward"></i></a></div>
+                <div id="play">
+                    <a href="#play" id="play-circle"
+                      ><i
+                        class="fas fa-play-circle"
+                        style="
+                          position: relative;
+                          margin-left: 13px;
+                          margin-top: 13px;
+                          font-size: 30px;
+                        "
+                      ></i
+                    ></a>
+                  </div>
+                  <div id="pause" style="display: none">
+                    <a href="#pause"
+                      ><i
+                        id="pause-circle"
+                        class="far fa-pause-circle"
+                        style="
+                          position: absolute;
+                          margin-left: -37px;
+        
+                          margin-top: 13px;
+                          font-size: 30px;
+                        "
+                      ></i
+                    ></a>
+                  </div>
+                <div id = "forward"><a href = "#controls"><i class="fas fa-step-forward"></i></a></div>
+                <div id = "loop"><a href = "#controls"><i class="fas fa-redo-alt"></i></a></div>
+            </div>
+        </div>
+        <div class = "progress">
+            <div><h6>1:29</h6></div>
+            <div id = "progress-outline">
+                <div id = "progress-bar">
+                    <a href = "#"><div id = "circle"></div></a>
+                </div>
+            </div>
+            <div><h6>4:13</h6></div>
+        </div>
+        <div class = "volume-bar">
+            <i class="fas fa-volume-up"></i>
+            <div id = "vol-outline">
+                <div id = "vol-bar">
+                    <a href = "#"><div id = "vol-circle"></div></a>
+                </div>
+            </div>
+            <audio id="music-playing" style="visibility:hidden;" controls>
+                <source src="Songs\Neenaade-Naa.mp3" type="audio/mp3">
+            </audio>
+        </div>
+    </footer>
+    <script type="text/javascript" src="MusicPlayer.js">
+    </script>
+</body>
+</html>
